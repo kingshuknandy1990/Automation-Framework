@@ -1,0 +1,14 @@
+http://www.groupkt.com/post/c9b0ccb9/country-and-other-related-rest-webservices.htm
+
+1. REST web-service  
+
+    Get Request (get a list of all Countries)
+"http://services.groupkt.com/country/get/"+ "all"
+"http://services.groupkt.com/country/get/"+ "all"
+
+Get Request (search country by 2 character alphanumeric ISO code)
+"http://services.groupkt.com/country/get/iso2code/"+"IN"
+
+
+Get Request (to search country by 3 character alphanumeric ISO code)
+"http://services.groupkt.com/country/get/iso3code/"+"IND"

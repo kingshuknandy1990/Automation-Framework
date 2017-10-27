@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24588" started-at="2016-04-14T13:34:55Z" finished-at="2016-04-14T13:35:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24588" started-at="2016-04-14T13:34:55Z" finished-at="2016-04-14T13:35:19Z">
+      <class name="com.spi.test.Driver">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.spi.test.Driver@1479a6b]" name="openApplication" is-config="true" duration-ms="14223" started-at="2016-04-14T19:04:55Z" finished-at="2016-04-14T19:05:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testMethod(java.lang.String)[pri:0, instance:com.spi.test.Driver@1479a6b]" name="testMethod" duration-ms="6992" started-at="2016-04-14T19:05:09Z" data-provider="getSheetName" finished-at="2016-04-14T19:05:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.spi.test.Driver@1479a6b]" name="closeBrowser" is-config="true" duration-ms="3271" started-at="2016-04-14T19:05:16Z" finished-at="2016-04-14T19:05:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.spi.test.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
